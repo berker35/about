@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  background: #444454;
+  color: azure;
+}
+img {
+  max-width: 100%;
+}
+h1,
+h2 {
+  margin-bottom: 15px;
+}
+ul {
+  list-style: none;
+}
+
+.navbar a:hover {
+  color: #ff979c;
+}
+.navbar a {
+  color: #92e7bf;
+  text-decoration: none;
+  font-weight: bold;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+.navbar {
+  background: #444454;
+  color: #92e7bf;
+  height: 50px;
+  position: sticky;
+  top: 0;
+}
+.logo {
+  font-size: x-large !important;
+  font-weight: bold !important;
+}
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.navbar ul {
+  display: flex;
+  align-items: center;
+}
+.navbar ul li {
+  margin-left: 20px;
+}
+
+.header {
+  min-height: 400px;
+  background: #444454;
+  padding-top: 30px;
+}
+.header p {
+  text-align: justify;
+}
+.header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+.header img {
+  max-width: 400px;
+  max-height: 400px;
+  margin-left: 30px;
+}
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cards .container {
+  display: flex;
+  padding: 0px 10px;
+  margin-bottom: 30px;
+}
+
+.card {
+  flex: 1;
+  background: #92e7bf;
+  margin: 15px;
+  border-radius: 10px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+  padding: 15px 20px;
+  color: black;
+  justify-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cards {
+  background: #444454;
+}
+.info {
+  background: #92e7bf;
+  color: #444454;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+.project {
+  display: flex;
+  padding-top: 30px;
+  text-align: justify;
+}
+.project img {
+  max-width: 400px;
+  border-radius: 10px;
+}
+.project p {
+  padding-right: 30px;
+}
+.info h1 {
+  padding-top: 30px;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+.info .container hr {
+  border: 5px dotted azure;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+.footer .contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+.footer .contact h2 {
+  margin: 0;
+}
+.contact a {
+  text-decoration: none;
+  color: azure;
+}
+
+.footer {
+  padding: 20px 0px;
+}
+.contact-icons a {
+  padding: 15px;
+}
+@media (max-width: 768px) {
+  .navbar a {
+    font-size: small;
+  }
+  .header .container {
+    flex-direction: column;
+  }
+  .cards .container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .header h1 {
+    text-align: center;
+  }
+  .header img {
+    max-width: 300px;
+    max-height: 300px;
+    margin: 0;
+  }
+  .project {
+    flex-direction: column;
+  }
+  .project img {
+    margin-top: 15px;
+  }
+  .project p {
+    padding: 0;
+  }
+  .footer .contact {
+    flex-direction: column;
+  }
+}
