@@ -43,11 +43,12 @@ ul {
   padding: 0 30px;
 }
 .navbar {
-  background: #444454;
+  background: #363643;
   color: #92e7bf;
   height: 50px;
   position: sticky;
   top: 0;
+  box-shadow: 0px 1px 7px 1px rgba(0, 0, 0, 0.85);
 }
 .logo {
   font-size: x-large !important;
@@ -67,28 +68,35 @@ ul {
   margin-left: 20px;
 }
 
-.header {
+.hero {
   min-height: 400px;
   background: #444454;
   padding-top: 30px;
+  height: 100vh;
 }
-.header p {
+.hero p {
   text-align: justify;
+  font-size: larger;
 }
-.header h1 {
-  font-size: 3rem;
+.hero h1 {
+  font-size: 6rem;
   font-weight: bold;
   line-height: 1.2;
+  color: #92e7bf;
+  border-bottom: 1px dotted #fff;
+  line-height: 1;
 }
-.header img {
-  max-width: 400px;
-  max-height: 400px;
+.hero img {
+  max-height: 250px;
   margin-left: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 11px 2px rgba(0, 0, 0, 0.85);
 }
-.header .container {
+.hero .container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+
+  height: 100%;
 }
 .cards .container {
   display: flex;
@@ -98,12 +106,12 @@ ul {
 
 .card {
   flex: 1;
-  background: #92e7bf;
+  background: #363643;
   margin: 15px;
   border-radius: 10px;
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 0px 11px 2px rgba(0, 0, 0, 0.85);
   padding: 15px 20px;
-  color: black;
+  color: #92e7bf;
   justify-items: center;
   display: flex;
   flex-direction: column;
@@ -123,9 +131,11 @@ ul {
   padding-top: 30px;
   text-align: justify;
 }
+
 .project img {
   max-width: 400px;
   border-radius: 10px;
+  box-shadow: 0px 0px 11px 2px rgba(0, 0, 0, 0.85);
 }
 .project p {
   padding-right: 30px;
@@ -134,10 +144,10 @@ ul {
   padding-top: 30px;
   font-size: 3rem;
   font-weight: bold;
-  line-height: 1.2;
+  line-height: 1;
 }
 .info .container hr {
-  border: 5px dotted azure;
+  border: 2px dotted azure;
   border-bottom: 0px;
   border-left: 0px;
   border-right: 0px;
@@ -166,20 +176,30 @@ ul {
   .navbar a {
     font-size: small;
   }
-  .header .container {
+  .hero .container {
     flex-direction: column;
   }
   .cards .container {
     flex-direction: column;
     text-align: center;
   }
-  .header h1 {
-    text-align: center;
+  .hero .container {
+    gap: 25px;
   }
-  .header img {
+  .hero h1 {
+    text-align: center;
+    font-size: 4rem;
+  }
+  .hero p {
+    font-size: large;
+  }
+  .hero img {
     max-width: 300px;
     max-height: 300px;
     margin: 0;
+  }
+  .info h1 {
+    text-align: center;
   }
   .project {
     flex-direction: column;
