@@ -43,7 +43,7 @@ ul {
   padding: 0 30px;
 }
 .navbar {
-  background: #363643;
+  background: #3d3d4c;
   color: #92e7bf;
   height: 50px;
   position: sticky;
@@ -105,7 +105,7 @@ ul {
 
 .card {
   flex: 1;
-  background: #363643;
+  background: #3d3d4c;
   margin: 15px;
   border-radius: 10px;
   box-shadow: 0px 0px 11px 2px rgba(0, 0, 0, 0.85);
@@ -200,9 +200,7 @@ ul {
     max-width: auto;
     margin: 0;
   }
-  .info h1 {
-    text-align: center;
-  }
+
   .project {
     flex-direction: column;
   }
