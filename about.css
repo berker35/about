@@ -82,8 +82,7 @@ ul {
   font-size: 6rem;
   font-weight: bold;
   line-height: 1.2;
-  color: #92e7bf;
-  border-bottom: 1px dotted #fff;
+  color: azure;
   line-height: 1;
 }
 .hero img {
@@ -188,7 +187,7 @@ ul {
   }
   .hero h1 {
     text-align: center;
-    font-size: 4rem;
+    font-size: 3rem;
   }
   .hero p {
     font-size: large;
