@@ -177,10 +177,9 @@ ul {
   }
   .hero .container {
     flex-direction: column;
-   padding-top: 5%;
+    padding-top: 5%;
     padding-bottom: 15%;
     gap: 20px;
-    paddi
   }
   .cards .container {
     flex-direction: column;
