@@ -177,13 +177,17 @@ ul {
   }
   .hero .container {
     flex-direction: column;
+   padding-top: 5%;
+    padding-bottom: 15%;
+    gap: 20px;
+    paddi
   }
   .cards .container {
     flex-direction: column;
     text-align: center;
   }
-  .hero .container {
-    gap: 25px;
+  .hero {
+    height: auto;
   }
   .hero h1 {
     text-align: center;
@@ -191,10 +195,10 @@ ul {
   }
   .hero p {
     font-size: large;
+    padding-bottom: 30px;
   }
   .hero img {
-    max-width: 300px;
-    max-height: 300px;
+    max-width: auto;
     margin: 0;
   }
   .info h1 {
