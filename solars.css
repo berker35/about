@@ -3,7 +3,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #334b57;
+  background-color: rgba(51, 75, 87, 0.3);
+  backdrop-filter: blur(8px);
+  box-shadow: 0px 1px 7px 1px rgba(0, 0, 0, 0.85);
   color: var(--light-color);
   height: 50px;
   padding: 1em;
@@ -12,7 +14,6 @@
   left: 0;
   width: 100%;
   z-index: 1;
-  opacity: 70%;
 }
 
 .menu {
@@ -28,7 +29,7 @@
   font-weight: 600;
 }
 .menu a {
-  color: var(--light-color);
+  color: var(--light-color) !important;
 }
 
 .brand {
@@ -121,7 +122,7 @@
 /* INFO SECTION */
 .info-section {
   gap: 20px;
-  padding: 50px 20px;
+  padding: 80px 20px;
   align-items: flex-start;
 }
 /* INFO SECTION END*/
@@ -272,5 +273,6 @@
   /* INFO SECTION */
   .info-section {
     flex-direction: column;
+    gap: 80px;
   }
 }
