@@ -7,6 +7,13 @@
     <title>Solar System</title>
     <link rel="stylesheet" href="solars-utils.css" />
     <link rel="stylesheet" href="solars.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <section class="top-nav">
@@ -35,10 +42,45 @@
         planets, dwarf planets, comets, asteroids and much more. Choose below a
         celestial body for detailed information and visuals.
       </p>
-      <a class="btn-main-white" href="#cards">Let's Go</a>
+      <a class="btn-main-white" href="#info">Let's Go</a>
     </section>
-    <section class="cards-section" id="cards">
-      <p>PLANETS</p>
+    <section id="info" class="info-section flex-item">
+      <div class="info-card flex-item">
+        <i class="fa-solid fa-sun fa-3x"></i>
+        <p>It's a star</p>
+        <p>
+          The Sun is the closest star to Earth, it's the source of all the heat
+          and light. Life wouldn't exist without it. It's also the center of our
+          solar system and by far its largest object.
+          <br />
+          <a
+            class="info-card-source"
+            href="https://kids.nationalgeographic.com/space/article/sun"
+            >Source: National Geographic</a
+          >
+        </p>
+      </div>
+      <div class="info-card flex-item">
+        <i class="fa-solid fa-earth-americas fa-3x"></i>
+        <p>It's alive</p>
+        <p>
+          Solar system is the only place we know that hosts life. There are 8
+          planets in the system. Among all those planets, as far as we know,
+          life only exists on Earth.
+        </p>
+      </div>
+      <div class="info-card flex-item">
+        <i class="fa-solid fa-hourglass fa-3x"></i>
+        <p>It's old</p>
+        <p>
+          Solar System is formed 4.6 billion years ago from a collapsed gas
+          cloud. It took millions of years to shape and cool down all the
+          planets and their moons.
+        </p>
+      </div>
+    </section>
+    <section class="cards-section">
+      <p>Solar Neighbourhood</p>
       <div class="cards-grid">
         <div class="card">
           <img src="./media/planets/sun.png" alt="The Sun" />
@@ -94,9 +136,5 @@
         </div>
       </div>
     </footer>
-    <script
-      src="https://kit.fontawesome.com/5df48da84c.js"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>
