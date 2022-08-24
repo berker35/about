@@ -17,22 +17,24 @@
   </head>
   <body>
     <section class="top-nav">
-      <div class="brand">SOLAR SYSTEM</div>
+      <div class="brand">
+        <i class="fa-solid fa-sun"></i>
+        <h3>SOLAR SYSTEM</h3>
+      </div>
       <input id="menu-toggle" type="checkbox" />
       <label class="menu-button-container" for="menu-toggle">
         <div class="menu-button"></div>
       </label>
       <ul class="menu">
-        <li>The Sun</li>
-        <li>Mercury</li>
-        <li>Venus</li>
-        <li>Earth</li>
-        <li>Mars</li>
-        <li>Jupiter</li>
-        <li>Saturn</li>
-        <li>Uranus</li>
-        <li>Neptune</li>
-        <li><a href="./index.html">About</a></li>
+        <li class="get-menu" id="mercury">Mercury</li>
+        <li class="get-menu" id="venus">Venus</li>
+        <li class="get-menu" id="earth">Earth</li>
+        <li class="get-menu" id="mars">Mars</li>
+        <li class="get-menu" id="jupiter">Jupiter</li>
+        <li class="get-menu" id="saturn">Saturn</li>
+        <li class="get-menu" id="uranus">Uranus</li>
+        <li class="get-menu" id="neptune">Neptune</li>
+        <li class="get-menu" id=""><a href="./index.html">About</a></li>
       </ul>
     </section>
     <section class="header-section">
@@ -79,47 +81,47 @@
         </p>
       </div>
     </section>
-    <section class="cards-section">
-      <p>Solar Neighbourhood</p>
-      <div class="cards-grid">
-        <div class="card">
-          <img src="./media/planets/sun.png" alt="The Sun" />
-          <a href="#" class="btn-card-white">The Sun</a>
+
+    <div class="wrapper" id="wrapper">
+      <div class="overview-page"></div>
+      <section class="cards-section">
+        <p style="text-align: center">Solar<br />Neighbourhood</p>
+        <div class="cards-grid">
+          <div id="mercury" class="card">
+            <img src="./media/planets/mercury-real.png" alt="Mercury" />
+            <a href="#wrapper" class="btn-card-white">Mercury</a>
+          </div>
+          <div id="venus" class="card">
+            <img src="./media/planets/venus-real.png" alt="Venus " />
+            <a href="#wrapper" class="btn-card-white">Venus</a>
+          </div>
+          <div id="earth" class="card">
+            <img src="./media/planets/earth-real.png" alt="Earth" />
+            <a href="#wrapper" class="btn-card-white">Earth</a>
+          </div>
+          <div id="mars" class="card">
+            <img src="./media/planets/mars-real.png" alt="Mars" />
+            <a href="#wrapper" class="btn-card-white">Mars</a>
+          </div>
+          <div id="jupiter" class="card">
+            <img src="./media/planets/jupiter-real.png" alt="Jupiter" />
+            <a href="#wrapper" class="btn-card-white">Jupiter</a>
+          </div>
+          <div id="saturn" class="card">
+            <img src="./media/planets/saturn-real.png" alt="Saturn" />
+            <a href="#wrapper" class="btn-card-white">Saturn</a>
+          </div>
+          <div id="uranus" class="card">
+            <img src="./media/planets/uranus-real.png" alt="Uranus" />
+            <a href="#wrapper" class="btn-card-white">Uranus</a>
+          </div>
+          <div id="neptune" class="card">
+            <img src="./media/planets/neptune-real.png" alt="Neptune" />
+            <a href="#wrapper" class="btn-card-white">Neptune</a>
+          </div>
         </div>
-        <div class="card">
-          <img src="./media/planets/mercury.png" alt="Mercury" />
-          <a href="#" class="btn-card-white">Mercury</a>
-        </div>
-        <div class="card">
-          <img src="./media/planets/venus.png" alt="Venus " />
-          <a href="#" class="btn-card-white">Venus</a>
-        </div>
-        <div class="card">
-          <img src="./media/planets/earth.png" alt="Earth" />
-          <a href="#" class="btn-card-white">Earth</a>
-        </div>
-        <div class="card">
-          <img src="./media/planets/mars.png" alt="Mars" />
-          <a href="#" class="btn-card-white">Mars</a>
-        </div>
-        <div class="card">
-          <img src="./media/planets/jupiter.png" alt="Jupiter" />
-          <a href="#" class="btn-card-white">Jupiter</a>
-        </div>
-        <div class="card">
-          <img src="./media/planets/saturn.png" alt="Saturn" />
-          <a href="#" class="btn-card-white">Saturn</a>
-        </div>
-        <div class="card">
-          <img src="./media/planets/uranus.png" alt="Uranus" />
-          <a href="#" class="btn-card-white">Uranus</a>
-        </div>
-        <div class="card">
-          <img src="./media/planets/neptune.png" alt="Neptune" />
-          <a href="#" class="btn-card-white">Neptune</a>
-        </div>
-      </div>
-    </section>
+      </section>
+    </div>
     <footer id="info" class="footer">
       <div class="container">
         <div class="contact">
@@ -136,5 +138,7 @@
         </div>
       </div>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="module" src="./script.js"></script>
   </body>
 </html>

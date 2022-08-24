@@ -1,0 +1,74 @@
+{
+  "mercury": {
+    "image": "./media/planets/mercury-real.png",
+    "name": "Mercury",
+    "description": "Mercury is the smallest planet in the Solar System and the closest to the Sun. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun's planets. It is named after the Roman god Mercurius (Mercury), god of commerce, messenger of the gods, and mediator between gods and mortals, corresponding to the Greek god Hermes.",
+    "rotation": "59 Days",
+    "revolution": "88 Days",
+    "radius": "2439.7 KM",
+    "temp": "167°C"
+  },
+  "venus": {
+    "image": "./media/planets/venus-real.png",
+    "name": "Venus",
+    "description": "Venus is the second planet from the Sun and is named after the Roman goddess of love and beauty. As the brightest natural object in Earth's night sky after the Moon, Venus can cast shadows and can be visible to the naked eye in broad daylight. The third smallest planet in the Solar System, Venus is a terrestrial planet and is sometimes called Earth's 'sister planet' because of their similar size, mass, proximity to the Sun, and bulk composition.",
+    "rotation": "243 Days",
+    "revolution": "225 Days",
+    "radius": "6051.8 KM",
+    "temp": "464°C"
+  },
+  "earth": {
+    "image": "./media/planets/earth-real.png",
+    "name": "Earth",
+    "description": "Earth is the third planet from the Sun and the only astronomical object known to harbor life. While large volumes of water can be found throughout the Solar System, only Earth sustains liquid surface water. About 71% of Earth's surface is made up of the ocean, dwarfing Earth's polar ice, lakes, and rivers. The remaining 29% of Earth's surface is land, consisting of continents and islands.",
+    "rotation": "1 Day",
+    "revolution": "365 Days ",
+    "radius": "6371 KM",
+    "temp": "15°C"
+  },
+  "mars": {
+    "image": "./media/planets/mars-real.png",
+    "name": "Mars",
+    "description": "Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System, being larger than only Mercury. In the English language, Mars is named for the Roman god of war. Mars is a terrestrial planet with a thin atmosphere, and has a crust primarily composed of elements similar to Earth's crust. Mars has surface features such as impact craters, valleys, dunes, and polar ice caps.",
+    "rotation": "1.03 Days",
+    "revolution": "1.88 Years",
+    "radius": "3389 KM",
+    "temp": "-65°C"
+  },
+  "jupiter": {
+    "image": "./media/planets/jupiter-real.png",
+    "name": "Jupiter",
+    "description": "Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass more than two and a half times that of all the other planets in the Solar System combined, but slightly less than one-thousandth the mass of the Sun. Jupiter is the third brightest natural object in the Earth's night sky after the Moon and Venus, and it has been observed since prehistoric times. It was named after the Roman god Jupiter, the king of the gods.",
+    "rotation": "9.6 Hours",
+    "revolution": "11.86 Years",
+    "radius": "69911 KM",
+    "temp": "-110°C"
+  },
+  "saturn": {
+    "image": "./media/planets/saturn-real.png",
+    "name": "Saturn",
+    "description": "Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant with an average radius of about nine and a half times that of Earth. It has only one-eighth the average density of Earth; however, with its larger volume, Saturn is over 95 times more massive.",
+    "rotation": "10.8 Hours",
+    "revolution": "29.46 Years",
+    "radius": "58232 KM",
+    "temp": "-140°C"
+  },
+  "uranus": {
+    "image": "./media/planets/uranus-real.png",
+    "name": "Uranus",
+    "description": "Uranus is the seventh planet from the Sun. Its name is a reference to the Greek god of the sky, Uranus (Caelus), who, according to Greek mythology, was the great-grandfather of Ares (Mars), grandfather of Zeus (Jupiter) and father of Cronus (Saturn). It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System.",
+    "rotation": "17.28 Hours",
+    "revolution": "84.01 Years",
+    "radius": "25362 KM",
+    "temp": "-195°C"
+  },
+  "neptune": {
+    "image": "./media/planets/neptune-real.png",
+    "name": "Neptune",
+    "description": "Neptune is the eighth planet from the Sun and the farthest known solar planet. In the Solar System, it is the fourth-largest planet by diameter, the third-most-massive planet, and the densest giant planet. It is 17 times the mass of Earth, and slightly more massive than its near-twin Uranus.",
+    "rotation": "16.08 Hours",
+    "revolution": "164.79 Years",
+    "radius": "24622 KM",
+    "temp": "-200°C"
+  }
+}
