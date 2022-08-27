@@ -10,6 +10,7 @@ html {
   scroll-behavior: smooth;
   font-family: "Montserrat", sans-serif;
 }
+
 body {
   background-color: #334b57;
 }
@@ -19,6 +20,7 @@ body {
   --dark-color: #333;
   --light-color: #cbd6dc;
 }
+
 .flex-item {
   display: flex;
   justify-content: center;
@@ -46,6 +48,7 @@ body {
   border: 1px var(--light-color) solid;
   border-radius: 8px;
   width: 100px;
+  cursor: pointer;
 }
 .btn-card-white:hover {
   background: var(--light-color);
