@@ -1,26 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
-
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   text-decoration: none;
+  list-style: none;
 }
 html {
   scroll-behavior: smooth;
   font-family: "Montserrat", sans-serif;
 }
-
 body {
   background-color: #334b57;
 }
-
+a {
+  color: ivory;
+}
 /* DEFAULT COLOR DECLERATIONS */
 :root {
   --dark-color: #333;
   --light-color: #cbd6dc;
 }
-
 .flex-item {
   display: flex;
   justify-content: center;
@@ -93,9 +93,7 @@ body {
   font-size: 0.8rem;
   opacity: 50%;
 }
-
 /* OVERVIEW PAGE */
-
 .overview-page {
   width: 100%;
   background-image: linear-gradient(
@@ -107,27 +105,11 @@ body {
   color: var(--light-color);
   display: none;
   grid-template-areas:
-    "header header header"
-    "nav main aside"
-    "nav footer footer";
+    "header header"
+    "main aside"
+    "footer footer";
   grid-template-rows: 50px 3fr 1fr;
-  grid-template-columns: 72px 1fr 1fr;
-}
-
-.overview-nav {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  padding: 5px 10px;
-  grid-area: nav;
-  align-items: space;
-  gap: 10px;
-}
-.overview-nav img {
-  max-width: 50px;
-}
-.overview-nav img:hover {
-  cursor: pointer;
+  grid-template-columns: 1fr 1fr;
 }
 .overview-main {
   grid-area: main;
@@ -146,6 +128,7 @@ body {
   max-width: 500px;
   height: auto;
   width: 100%;
+  padding-left: 10px;
 }
 .overview-aside {
   grid-area: aside;
@@ -155,14 +138,12 @@ body {
   text-align: justify;
   justify-content: space-evenly;
 }
-
 .overview-footer {
   grid-area: footer;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-
 .footer-card {
   border: 1px var(--light-color) solid;
   height: 100px;
