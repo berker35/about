@@ -157,7 +157,7 @@ ul {
   gap: 40px;
 }
 .calculator {
-  gap: 70px;
+  gap: 50px;
 }
 iframe {
   height: 700px;
@@ -242,7 +242,7 @@ iframe {
     gap: 0;
   }
   .calculator {
-    gap: 25px;
+    gap: 15px;
     height: 550px;
   }
 }
