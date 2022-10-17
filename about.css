@@ -142,6 +142,26 @@ ul {
 .project p {
   padding-right: 30px;
 }
+
+.vertical-projects {
+  display: flex;
+  gap: 30px;
+  padding-top: 20px;
+  height: 700px;
+  width: 100%;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.vertical-projects-main {
+  display: flex;
+  gap: 40px;
+}
+.calculator {
+  gap: 70px;
+}
+iframe {
+  height: 700px;
+}
 .info h1 {
   padding-top: 30px;
   font-size: 3rem;
@@ -174,6 +194,7 @@ ul {
 .contact-icons a {
   padding: 15px;
 }
+
 @media (max-width: 768px) {
   .navbar a {
     font-size: small;
@@ -215,5 +236,13 @@ ul {
   }
   .footer .contact {
     flex-direction: column;
+  }
+  .vertical-projects-main {
+    flex-direction: column;
+    gap: 0;
+  }
+  .calculator {
+    gap: 25px;
+    height: 550px;
   }
 }

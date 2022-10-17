@@ -100,7 +100,7 @@ a {
       rgba(51, 75, 87, 0.2),
       rgba(51, 75, 87, 0.2)
     ),
-    url(./media/cards-bg.jpg);
+    url(../media/cards-bg.jpg);
   background-repeat: repeat;
   color: var(--light-color);
   display: none;

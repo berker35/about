@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="outer-frame">
+      <div class="inner-frame">
+        <div class="screen">
+          <p id="main-display">Welcome</p>
+        </div>
+        <div class="buttons-container">
+          <button id="divide" class="btn-generic bg-orange operator">/</button>
+          <button id="multiply" class="btn-generic bg-orange operator">
+            x
+          </button>
+          <button
+            id="add"
+            class="btn-generic bg-orange operator"
+            style="font-size: large"
+          >
+            +
+          </button>
+          <button id="subtract" class="btn-generic bg-orange operator">
+            -
+          </button>
+          <button id="nine" class="btn-generic digit">9</button>
+          <button id="eight" class="btn-generic digit">8</button>
+          <button id="seven" class="btn-generic digit">7</button>
+          <button
+            onclick="clearAll()"
+            id="clear"
+            class="btn-generic"
+            style="background-color: #ff595e"
+          >
+            C
+          </button>
+          <button id="six" class="btn-generic digit">6</button>
+          <button id="five" class="btn-generic digit">5</button>
+          <button id="four" class="btn-generic digit">4</button>
+          <button
+            id="equal"
+            class="btn-generic operator"
+            style="background-color: #8ac926"
+          >
+            =
+          </button>
+          <button id="three" class="btn-generic digit">3</button>
+          <button id="two" class="btn-generic digit">2</button>
+          <button id="one" class="btn-generic digit">1</button>
+          <button
+            id="dot"
+            class="btn-generic digit"
+            style="background-color: #ffca3a; font-size: x-large"
+          >
+            .
+          </button>
+          <button id="zero" class="btn-generic digit">0</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
