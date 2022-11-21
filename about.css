@@ -142,27 +142,20 @@ ul {
 .project p {
   padding-right: 30px;
 }
-
 .vertical-projects {
   display: flex;
-  gap: 30px;
-  padding-top: 20px;
-  height: 730px;
-  width: 100%;
+  gap: 20px;
   justify-content: space-between;
-  flex-direction: column;
-  text-align: justify;
+  margin: 30px 0px;
 }
-.vertical-projects-main {
+.vertical-project {
   display: flex;
-  gap: 40px;
+  flex-direction: column;
 }
-.calculator {
-  gap: 50px;
+.vertical-project img {
+  max-height: 350px;
 }
-iframe {
-  height: 700px;
-}
+
 .info h1 {
   padding-top: 30px;
   font-size: 3rem;
@@ -238,12 +231,13 @@ iframe {
   .footer .contact {
     flex-direction: column;
   }
-  .vertical-projects-main {
+  .vertical-projects {
     flex-direction: column;
-    gap: 0;
+    width: max-content;
   }
-  .calculator {
-    gap: 15px;
-    height: 550px;
+  .vertical-project img {
+    max-height: 500px;
+    margin-top: 20px;
+    margin-bottom: 50px;
   }
 }
